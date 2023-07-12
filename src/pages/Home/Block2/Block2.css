@@ -4,7 +4,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 40vh;
+  height: 75vh;
   width: 100%;
 }
 .main-block2{
@@ -12,30 +12,108 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    height: 40vh;
+    height: 75vh;
     width: 100%;
 }
 .col1-block2{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    padding-left: 7rem;
     height: 100%;
     width: 50%;
+}
+.col1-block2 > h2{
+    color: #fff;
+    font-size: 2.5rem;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+.col1-block2 > p{
+    color: #727272;
+    font-size: 1.0rem;
+    font-weight: 400;
+    padding-bottom: 20px;
 }
 .col2-block2{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
     height: 100%;
     width: 50%;
+    text-align: left;
+    padding-left: 1.5rem;
+}
+.underline{
+    text-decoration: underline;
+}
+.col2-block2 > h2{
+    color: #fff;
+    font-size: 2.1rem;
+    font-weight: 700;
+}
+.col2-block2 > h3{
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 100;
+    padding-bottom: 20px;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+}
+.col2-block2 > p {
+    color: #727272;
+    font-size: 1.0rem;
+    font-weight: 400;
+    padding-bottom: 20px;
+    width: 85%;
 }
 .col3-block2{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     height: 100%;
     width: 50%;
+    padding-left: 5vw;
+    padding-top: 10vh;
+}
+.col3-block2 > h2{
+    color: #fff;
+    font-size: 2.5rem;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+.col3-block2 > p{
+    color: #727272;
+    font-size: 1.0rem;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+.block-btns-block3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 75%;
+    gap: 0.8rem;
+}
+.block-btns-block3 > button{
+    font-size: 0.9rem;
+    letter-spacing: .5px;
+    fill: #fff;
+    color: #fff;
+    background-color: #FFFFFF00;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #FFFFFF4D;
+    border-radius: 15px;
+    width: 100%;
+    text-align: left;
+    padding: 10px;
+    padding-left: 35px;
+    text-transform: uppercase;
+}
+.block-btns-block3 > button:hover{
+    border-color: #ffffff;
+    transition: 0.3s;
+    cursor: pointer;
 }
